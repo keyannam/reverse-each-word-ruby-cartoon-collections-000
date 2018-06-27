@@ -8,8 +8,8 @@ def reverse_each_word(sentence1)
 end
 
 def reverse_each_word(sentence1)
-  sentence1.split(" ").each do |x|
-    x.reverse
+  words = sentence1.split(" ").each do |word|
+    word.reverse
   end
-  x.join(" ")
+  words.join(" ")
 end
